@@ -29,8 +29,8 @@ function fetchMovie(){
             <p>Ratings:<i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
             <i class="fa-solid fa-star-half"></i></p>
+            <i class="fa-regular fa-star"></i>
         </div>
         </div>
         </div>
