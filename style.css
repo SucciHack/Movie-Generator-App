@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body {
+  background: #020617;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container .search {
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.container .search input {
+  padding: 1rem 3rem;
+  background: rgba(255, 255, 255, 0.925);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: none;
+  width: 80%;
+}
+.container .search ::-moz-placeholder {
+  color: black;
+  font-size: 1rem;
+}
+.container .search ::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+.container .search button {
+  padding: 1rem 3rem;
+  background: blue;
+  border: none;
+  color: white;
+  width: 20%;
+}
+.container .movieContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .movieContainer .movieImage {
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.container .movieContainer .movieImage img {
+  width: 100%;
+  display: block;
+}
+.container .movieContainer .movieContent {
+  width: 70%;
+  background: rgba(232, 240, 254, 0.9176470588);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 5px;
+  color: black;
+  padding: 1rem;
+}
+.container .movieContainer .movieContent h3 {
+  font-size: 2rem;
+}
+.container .movieContainer .movieContent p {
+  margin-top: 20px;
+}
+.container .movieContainer .movieContent .ratings {
+  display: flex;
+  gap: 1rem;
+}
+.container .movieContainer .movieContent .ratings i {
+  color: orange;
+}/*# sourceMappingURL=style.css.map */
