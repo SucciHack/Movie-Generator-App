@@ -46,6 +46,9 @@ body {
   color: black;
   font-size: 1rem;
 }
+.container .search :focus {
+  outline: none;
+}
 .container .search button {
   padding: 1rem 3rem;
   background: blue;

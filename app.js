@@ -5,7 +5,7 @@ const searchBtn = document.querySelector("button")
 function fetchMovie(){
     searchBtn.addEventListener("click", async()=>{
         const searchQuery = inputField.value
-        const response= await fetch(`http://www.omdbapi.com/?t=${searchQuery}&apikey=743ff126`)
+        const response= await fetch(`https://www.omdbapi.com/?t=${searchQuery}&apikey=743ff126`)
         const movieData = await response.json()
         console.log(movieData)
 
